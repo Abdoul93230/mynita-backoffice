@@ -66,7 +66,7 @@ const seedAdmins: (Admin & { password: string })[] = [
   },
 ]
 
-const seedAgents: Agent[] = [
+export const seedAgents: Agent[] = [
   {
     id: 'agt1',
     nom: 'SOULEY',
@@ -154,7 +154,7 @@ const seedAgents: Agent[] = [
   },
 ]
 
-const seedComptes: ClientAccount[] = [
+export const seedComptes: ClientAccount[] = [
   {
     id: 'cpt1',
     nomComplet: 'Adamou GARBA',
